@@ -130,9 +130,9 @@ function ThreadCard({
               key={index}
               src={comment.author.image}
               alt={`user_${index}`}
-              width={24}
-              height={24}
-              className={`${index !== 0 && "-ml-5"} rounded-full object-cover`}
+              width={28}
+              height={28}
+              className={`${index !== 0 && "-ml-5"} rounded-full object-cover user_img`}
             />
           ))}
 

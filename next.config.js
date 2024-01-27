@@ -6,6 +6,7 @@ const nextConfig = {
       ignoreBuildErrors: true
    },
    experimental: {
+      serverActions: true,
       serverComponentsExternalPackages: ["mongoose"]
    },
    images: {
@@ -17,6 +18,10 @@ const nextConfig = {
          {
             protocol: 'https',
             hostname: 'img.clerk.dev'
+         },
+         {
+            protocol: 'https',
+            hostname: 'images.clerk.dev'
          },
          {
             protocol: 'https',
